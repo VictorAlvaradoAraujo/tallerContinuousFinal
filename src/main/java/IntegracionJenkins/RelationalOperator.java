@@ -8,7 +8,7 @@ public class RelationalOperator {
      * @param num2
      * @return true if num1 is greater than num2, false otherwise
      */
-    public boolean isGreater(int num1, int num2) {
+	public boolean isGreater(int num1, int num2) {
         return num1 > num2;
     }
 
@@ -19,7 +19,7 @@ public class RelationalOperator {
      * @return true if num1 is less than num2, false otherwise
      */
     public boolean isLess(int num1, int num2) {
-        return num1 <= num2;
+        return num1 < num2;
     }
 
     
